@@ -1,0 +1,36 @@
+.searchBox{
+    width:50%;
+}
+
+.movies{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.mainVideo{
+    width: 100%;
+    border-radius: 5px;
+}
+.mainMovie{
+    width: 720px;
+}
+.mainImg{
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+.sideImg{
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sideMovie{
+    width:350px;
+}
+
+
+@media (max-width:500px){
+    .searchBox{
+        width:350px;
+    }
+}
